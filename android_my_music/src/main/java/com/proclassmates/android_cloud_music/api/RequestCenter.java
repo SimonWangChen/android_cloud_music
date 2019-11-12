@@ -27,6 +27,16 @@ public class RequestCenter {
         public static String LOGIN = ROOT_URL + "/user/login_phone.php";
     }
 
+    /**
+     * 登录实现
+     * @param listener
+     */
     public static void login(DisposeDataListener listener){
     }
+
+    public static void postRequest(){
+
+    }
+
+
 }

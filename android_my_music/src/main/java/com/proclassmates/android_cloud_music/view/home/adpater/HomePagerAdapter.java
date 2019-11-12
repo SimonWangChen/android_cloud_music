@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.proclassmates.android_cloud_music.view.MineFragment;
+import com.proclassmates.android_cloud_music.view.mine.MineFragment;
 import com.proclassmates.android_cloud_music.view.discory.DiscoryFragment;
 import com.proclassmates.android_cloud_music.view.friend.FriendFragment;
 import com.proclassmates.android_cloud_music.view.home.model.CHANNEL;

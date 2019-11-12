@@ -1,4 +1,4 @@
-package com.proclassmates.android_cloud_music.view;
+package com.proclassmates.android_cloud_music.view.mine;
 
 import android.content.Context;
 import android.os.Bundle;
