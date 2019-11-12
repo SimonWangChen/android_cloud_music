@@ -1,4 +1,4 @@
-package com.proclassmates.lib_common_ui;
+package com.proclassmates.lib_common_ui.utils;
 
 import android.app.Activity;
 import android.content.Context;
