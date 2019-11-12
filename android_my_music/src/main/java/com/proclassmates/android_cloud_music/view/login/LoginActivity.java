@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.proclassmates.android_cloud_music.R;
 import com.proclassmates.android_cloud_music.api.MockData;
@@ -33,6 +34,7 @@ public class LoginActivity extends BaseActivity implements DisposeDataListener {
         findViewById(R.id.login_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(LoginActivity.this, "你点我了", Toast.LENGTH_SHORT).show();
                 RequestCenter.login(LoginActivity.this);
             }
         });

@@ -139,6 +139,13 @@ public class HomeActivity extends BaseActivity implements View.OnClickListener {
                     mDrawerLayout.closeDrawer(Gravity.LEFT);
                 }
                 break;
+            case R.id.toggle_view:
+                if (mDrawerLayout.isDrawerOpen(Gravity.LEFT)) {
+                    mDrawerLayout.closeDrawer(Gravity.LEFT);
+                } else {
+                    mDrawerLayout.openDrawer(Gravity.LEFT);
+                }
+                break;
         }
     }
 
